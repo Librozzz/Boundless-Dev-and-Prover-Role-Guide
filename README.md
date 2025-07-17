@@ -27,7 +27,7 @@ sudo apt update && sudo apt install -y curl git
 
 c. Download and run the script
 
-bash <(curl -s https://raw.githubusercontent.com/morsyxbt/boundless-prover-dev/main/boundless-prover.sh)
+bash <(curl -s https://raw.githubusercontent.com/Librozzz/boundless-prover-dev/main/boundless-prover.sh)
 
 d. Once the process is completed, it will ask for the following"
 
