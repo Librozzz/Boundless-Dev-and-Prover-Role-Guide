@@ -21,26 +21,26 @@ After you are done, copy the Network URL you just created. It should look someth
 >    
 a. Connect to your server ( skip step (a) if you are doing this on your PC or Laptop locally) - ssh root@your-server-ip
 
-Install dependencies on Ubuntu using WSL
+b. Install dependencies on Ubuntu using WSL
 
 sudo apt update && sudo apt install -y curl git
 
-Download and run the script
+c. Download and run the script
 
 bash <(curl -s https://raw.githubusercontent.com/morsyxbt/boundless-prover-dev/main/boundless-prover.sh)
 
-Once the process is completed, it will ask for the following"
+d. Once the process is completed, it will ask for the following"
 
 Alchemy Base RPC URL (which you just created on Alchemy)
 
 Your wallet private (you can copy and paste from wallet, the input will be hidden)
 
-After that it will ask you to select the role and show the amount required for each role. Select role: 1, 2, or click 3 if you need both
+e. After that it will ask you to select the role and show the amount required for each role. Select role: 1, 2, or click 3 if you need both
 
 It will check your wallet balance and start processing. It will take some time.
 
-After everything is successfully processed, you will see this message : GUILD QUEST COMPLETED! 🎉 Welcome to the Boundless Network!
+f. After everything is successfully processed, you will see this message : GUILD QUEST COMPLETED! 🎉 Welcome to the Boundless Network!
 
-You can go back to the Guild and get the roles then.
+g. You can go back to the Guild and get the roles then.
 
 Hope this helps.
